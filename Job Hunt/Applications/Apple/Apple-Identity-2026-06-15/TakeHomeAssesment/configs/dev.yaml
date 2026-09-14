@@ -1,0 +1,26 @@
+# TODO: Comment each parameter with details and examples
+
+webserver:
+  address: ":8888"
+  # Suffixes: h, m, s, ms
+  write_timeout: 15s
+  read_timeout: 2s
+  iddle_timeout: 30s
+observability:
+  # Filter log output by this level.
+  # Debug, Info, Warn, Error
+  logging_level: Debug
+  # Spins up a new pprof service for profiling
+  enable_profiling: true
+  profiling_address: ":8889"
+weather_generator:
+  buffer_size: 1000
+  client_count: 50
+  max_retry_count: 3
+  min_retry_delay: 100ms
+  max_retry_delay: 6s
+  max_record_age: 10m
+  request_timeout: 8s
+  max_fetch_per_sec: 30
+  random_loc_api_url: "https://locations.patch3s.dev/api/random"
+  points_api_url: "https://api.weather.gov/points/%v,%v"

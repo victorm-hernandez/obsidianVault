@@ -1,0 +1,44 @@
+- Consider checking marketplace insurance instead of COBRA
+	- COBRA is more expensive tipically.
+	- Affordable care act, I can purchase insurance in a market place. 
+	- I can get a reduced medical insurance for low income. 
+		- Family of 3 - $106,600 represents subsidy cliff
+	- Check open enrollment dates, November 1st
+- 52 week mark of unemployment
+	- Applying for unemployment again its an option. 
+	- He mentioned another person had that. 
+	- Contact the office of unemployment
+- Check my 401 from Docusign
+	- Vanguard, access, numbers?
+- 0.35-1.3 % cost 
+- Consolidate 401ks into a single one
+	- Fidelity
+	- Vanguard
+- Consolidate HSAs into single one
+	- DocuSign
+	- MSFT
+	- Salesforce
+- 200 k for expenses
+- 800 k for investing
+- Is my HSA invested?
+	- They can give suggestions even if it is not managed by them
+- Tax planning
+	- Am I getting the best
+- Financial planning
+	- Long term, can I retire when I want?
+- Trust & State planning
+	- Will, powers of attorney
+- They can provide advise on non management accounts.
+- Specialized in tech
+	- Retirees
+	- More flexible than north western mutual
+		- Rules, faster to react.
+- Broker dealer model vs Register Investment Advisory Model.
+- Fiduciary standard: Standard that they have to follow, in all the recommendations, they have to be in my best interest. Legal duty. 
+- Suitability standard: Make recommendations that work that may not be always in your best interest. 
+- Next meeting:
+	- Have statements to them for financials. Banks, Fidelity, SSN. Date of birth.
+	- All 401 k into an IRA account. Similar (tax deferred) less creditor protection on this one. Each state has different protection.
+	- Stock requires discussion for sale strategies. Tax planning.
+	- Link fidelity account to banks. 
+	- 1 week setup

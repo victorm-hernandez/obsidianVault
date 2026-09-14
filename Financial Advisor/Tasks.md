@@ -1,0 +1,4 @@
+- Investigate the type of accounts that we have, RSU, brokerage account, etc.
+- Get our financial snapshot, how much on each account.
+- Get information about types of advisors.
+- Get information about financial instruments. 

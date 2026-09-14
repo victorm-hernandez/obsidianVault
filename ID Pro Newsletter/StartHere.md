@@ -1,0 +1,3 @@
+ - Invite to participate: https://idproconnect.slack.com/archives/C0AQT0K45EY/p1788910839920359
+- Google form to submit: https://docs.google.com/forms/d/e/1FAIpQLScPtD4TJRGx9lnhnEn6vrjpkOi7IUnHnrNMQmCAGYdAuOvnmA/viewform
+- Other articles: https://idpro.org/tag/newsletter/

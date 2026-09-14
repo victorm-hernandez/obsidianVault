@@ -1,0 +1,28 @@
+
+- Weak Recommend by Juan Carlos Aguilera
+	- Mitchell A. Sasonoff, CFP®, ChFC®, RICP ® mitchell.sasonoff@nm.com
+	- Northwestern Mutual- Korsa Wealth Management
+	- Work cell: 425.998.5485
+- Strong recommend by Eduardo Cuervo
+	- Alexander Dorell, CFA, CFP®, RICP®
+	- Sr. Wealth Advisor | Consilio Wealth Advisors
+	- Direct: 206.558.2191  |  Team Contact: 206.533.3670
+	- www.consiliowealth.com
+- No recommendation, came from First Tech
+	- **Henry Qin**
+	- Sr. Associate Financial Advisor, RJFS
+	- Addison Avenue Investment Services
+	- 2700 156th Ave NE, Ste. 225
+	- Bellevue, WA 98007
+	- 425.414.2270 Tel – Calls Only
+	- 503.469.7861 Fax
+	- 855.744.8585 Support Center 
+	- https://www.raymondjames.com/thewestteam/about-us
+	- **Kris West**
+	- Financial Advisor, RJFS
+	- CA Insurance License #4145122
+	- 425.702.3148 Tel
+	- **Megan Mcilwain**
+	- Senior Registered Branch Consultant
+	- Admin Extension
+	- 425.386.1994 Tel

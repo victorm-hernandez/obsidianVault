@@ -1,0 +1,22 @@
+classDiagram
+    %% Class Definitions
+    class IForecastService{
+        <<interface>>
+        + GetForecastData() List~Forecast~
+        + UpdateForecastData(List~Forecast~)
+    }
+
+    IForecastService ()-- RedisForecastService 
+    class RedisForecastService{
+        - ConnectionMultiplexer
+        + GetForecastData() List~Forecast~
+        + UpdateForecastData(List~Forecast~)
+    }
+
+    class Forecast{
+        + Float Longitude
+        + Float Lattitude
+        + String LocationName
+        + String Forecast
+        + DateTime ExpirationData
+    }

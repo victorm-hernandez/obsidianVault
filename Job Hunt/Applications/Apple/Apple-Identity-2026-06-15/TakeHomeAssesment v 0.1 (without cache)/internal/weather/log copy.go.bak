@@ -1,0 +1,74 @@
+package weather
+
+import (
+	"sync"
+	"time"
+)
+
+type LocationInfoLog struct {
+	logs       []LocationInfo
+	mutex      sync.Mutex
+	writeIndex int
+	readIndex  int
+	length     int
+}
+
+func NewLocationInfoLog(capacity int) *LocationInfoLog {
+	instance := &LocationInfoLog{
+		logs: make([]LocationInfo, capacity), // Fixed size, initialized
+	}
+
+	return instance
+}
+
+func (l *LocationInfoLog) Log(data LocationInfo) {
+	// TODO: validate location info is not stale before saving
+	l.mutex.Lock()
+	defer l.mutex.Unlock()
+
+	l.logs[l.writeIndex] = data
+	l.writeIndex++
+	l.length++
+
+	if l.length > len(l.logs) {
+		l.length = len(l.logs)
+	}
+
+	if l.writeIndex >= len(l.logs) {
+		l.writeIndex = 0
+	}
+
+	// If write catch up with read, bump read
+	if l.writeIndex == l.readIndex {
+		l.readIndex++
+	}
+}
+
+func (l *LocationInfoLog) Read() (LocationInfo, bool) {
+	l.mutex.Lock()
+	defer l.mutex.Unlock()
+
+	if l.readIndex >= len(l.logs) {
+		l.readIndex = 0
+	}
+
+	for {
+		// There is no more data to read
+		if l.length <= 0 {
+			return LocationInfo{}, false
+		}
+
+		// Ignore stale data
+		// TODO: Refactor so the stale data window is injected to this struct
+		if time.Since(l.logs[l.readIndex].Created) > (time.Minute * 5) {
+			l.readIndex++
+			l.length--
+			continue
+		}
+
+		toRead := l.readIndex
+		l.readIndex++
+		l.length--
+		return l.logs[toRead], true
+	}
+}

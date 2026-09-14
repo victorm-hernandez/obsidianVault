@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "d7c7863fa54dcffc",
+    "type": "split",
+    "children": [
+      {
+        "id": "526fc0da64fdf8c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdea4e53462ddba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e34f8ca10ad24dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "31a705ad264ae45b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01c7517006c8f7e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6226bb52edf1a76b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3bf5475493ae4f98",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.484375
+  },
+  "right": {
+    "id": "155e4f3abe7eebaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce234049aa8f6d9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ef076a3a33b2c8c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Planning Doc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b2cbca645fcb83c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Planning Doc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "90cbdd2404953905",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "29c90f9c897de914",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8533d5c3d423f5fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Planning Doc.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fdea4e53462ddba5",
+  "lastOpenFiles": [
+    "Document Structure.md",
+    "4-What-Is-a-Passkey.md",
+    "Planning.md",
+    "Newsletter/0-Newsletter Ideas.md",
+    "Newsletter/1-Content-From Shadow AI to Governed Agents- Designing the NHI Lifecycle.md",
+    "Newsletter/1-Submission Details.md",
+    "Newsletter/2-Architecting the Agentic Perimeter.md",
+    "Newsletter/1-Abstract-From Shadow AI to Governed Agents- Designing the NHI Lifecycle.md",
+    "Newsletter",
+    "Document Structure Proposal/PasskeysDocStructureProposal.pdf",
+    "Document Structure Proposal/DocumentProposal 2.md",
+    "Document Structure Proposal/DocumentProposal 3.md",
+    "Template/Document Template v 1.md",
+    "Document Structure Proposal/Document proposal 4 (2nd draft, clean).md",
+    "Document Structure Proposal/PasskeysStructureProposal.pdf",
+    "Document Structure Proposal/Shared with Editor.pdf",
+    "Document Structure Proposal/Shared with Editor_tmp.html",
+    "Document Structure Proposal/Shared with Editor.md",
+    "Document Structure Proposal/Document proposal 4 (2nd draft).md",
+    "Document Structure Proposal/Document proposal 4 (2nd draft).pdf",
+    "Document Structure Proposal/Document proposal v2.pdf",
+    "Document Structure Proposal/Document proposal 4 (2nd draft) copy.pdf",
+    "Document Structure Proposal/Document proposal 4 (2nd draft)_tmp.html",
+    "Document Structure Proposal/Document Proposal 3.2 (1st draft).pdf",
+    "Mentions of WebAuthN on the BoK.md",
+    "Document Proposal.md",
+    "Planning Doc.md",
+    "W3C Working Group.md",
+    "References Structure/W3C Spec Structure (Lvl 3).md",
+    "Content Snippets/Credential types.md",
+    "Document Structure Proposal/Document Proposal 3.1.md",
+    "MSG.md",
+    "References Structure/Wikipedia WebAuthN structure.md",
+    "Document Structure Proposal/Document Proposal.md",
+    "Document Structure Proposal/DocumentProposal3.md",
+    "Document Structure Proposal/DocumentProposal2.md"
+  ]
+}

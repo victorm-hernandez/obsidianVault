@@ -1,0 +1,10 @@
+- ADP, vanguard, check for 401k from DocuSign
+- Get numbers for the entire thing my costs monthly
+- Spending numbers:
+	- Subsidy for insurance
+	- Qualify for subsidy for insurance. Gary Frank, he helps evaluate health insurance. Kristopher West will make an introduction. 
+- How are they better than others?
+- What is the cost of the service?
+- Rent on the area, and then buy somewhere else?
+- Tax system in Spain is different, check it. 
+	- Consider moving to Portugal, Spain, Italy. 
