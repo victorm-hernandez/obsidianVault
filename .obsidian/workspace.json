@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "5d5374b3b9e9fea2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1e35f05f125e47c",
+        "type": "split",
+        "children": [
+          {
+            "id": "15c91984d37fe2fb",
+            "type": "tabs",
+            "dimension": 69.0959409594096,
+            "children": [
+              {
+                "id": "0f5935f4086f524a",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          },
+          {
+            "id": "194830a7da77d1b9",
+            "type": "tabs",
+            "dimension": 30.904059040590404,
+            "children": [
+              {
+                "id": "4c1c4b41c1ec9106",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/victor/Repo/obsidianVault",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "environment": [],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "darwinIntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "zsh"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b1cde4fe02300db",
+    "type": "split",
+    "children": [
+      {
+        "id": "df66cd1dd95ccffd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23976142d72d8e03",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8023d0ce1716653c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e6f6b1e3ef477cd2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 568.328125
+  },
+  "right": {
+    "id": "a3dfe21cdb71f741",
+    "type": "split",
+    "children": [
+      {
+        "id": "b58b88c52a00ed1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5e0c5db87075e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODAY TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6e7952f9e71ccfa8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODAY TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7d81d380b08870d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7c91b7662cc40717",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2b0d823829caddd5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODAY TODO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "publish:Publish changes...": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "4c1c4b41c1ec9106",
+  "lastOpenFiles": [
+    "README.md",
+    "TODO-Backlog.md",
+    "Untitled.base",
+    "README_temp.md",
+    "TODO.md",
+    "Job Hunt/Questions/1-AboutYourself-FullReference.md",
+    "Job Hunt/Questions",
+    "Identity Underground/Contacts.md",
+    "OWASP-project-genai/Agent Control Standard (ACS).md",
+    "Identity Underground",
+    "Financial Advisor/Fidelity.md",
+    "Financial Advisor/Consilio Advisor.md",
+    "Financial Advisor/Welcome.md",
+    "Financial Advisor/Northwest Mutual.md",
+    "Financial Advisor/Tasks.md",
+    "Financial Advisor/Addison Avenue.md",
+    "Job Hunt/Applications/CoinBase-SeniorStaff.md",
+    "Job Hunt/Message Templates.md",
+    "Job Hunt/Prompts-ResumeGaps.md",
+    "Job Hunt/README.md",
+    "Job Hunt/NetworkGrowth.md",
+    "Job Hunt/CreateResumeForJobPosting.md",
+    "Job Hunt/Conflict Resolution Example.md",
+    "Job Hunt/Behavioral Interview.md",
+    "Job Hunt/Applications.md",
+    "Job Hunt/Projects/OWASP-ACS-ReferenceImplementation.md",
+    "OWASP-project-genai/Meeting Notes.md",
+    "Job Hunt/Projects/OWASP-ACS-ReferenceImplementation-Materials.md",
+    "OWASP-project-genai/TODO.md",
+    "Financial Advisor/ConsilioMeeting/Screenshot 2026-09-09 at 1.23.30 PM.png",
+    "Financial Advisor/ConsilioMeeting/Screenshot 2026-09-09 at 1.25.32 PM.png",
+    "Financial Advisor/ConsilioMeeting",
+    "Financial Advisor/untitled folder",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.13.22 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.34.46 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.35.14 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.37.54 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.40.48 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.44.55 AM.png",
+    "OWASP-project-genai/IntroMeeting/Screenshot 2026-09-10 at 9.45.57 AM.png",
+    "OWASP-project-genai/IntroMeeting",
+    "OWASP-project-genai/untitled folder",
+    "Job Hunt/Applications/Coupang-2026-09/Screenshot 2026-09-04 at 4.01.31 PM.png",
+    "Passkeys Document/Document Structure Proposal/Document proposal 4 (2nd draft).pdf",
+    "Passkeys Document/AI",
+    "Passkeys Document/Template"
+  ]
+}
