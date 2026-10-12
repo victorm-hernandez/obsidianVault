@@ -1,4 +1,6 @@
 
+https://blog.timcappalli.me/p/webauthn-3/
+
 ## Concept References
 
 WebAuthN Wikipedia: https://en.wikipedia.org/wiki/WebAuthn
