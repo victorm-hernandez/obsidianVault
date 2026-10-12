@@ -1,7 +1,141 @@
+Move to google workspaces the axoedge emails and also the victorh.dev emails
+
+Contribute to Tim Cappalli githubs and send email to CG mailing list, leave trace of contributions on the public mailing-list of wica.
+	http://github.com/passkeydeveloper  
+	https://github.com/digitalcredentialsdev
+
+Join this CG (Heather and Tim Cappali co-chairs)
+	https://www.w3.org/community/fed-id/
+
+Follow up no passkeys CG from W3C
+	https://www.w3.org/community/wica/
+
+Add every speaker on this conference to my linkedin
+	https://www.youtube.com/@OWASPGLOBAL/featured
+	
+Take a look at the content from the OWASP digital conference
+	https://www.youtube.com/@OWASPGLOBAL/featured
+
+Great example of sharing on linkedIn
+	Konstantin Trunin, shows slides with useful context and then link to source
+		https://www.linkedin.com/feed/update/urn:li:activity:7503446373531451392/
+
+Reference website, David Brossard
+	https://www.webfarmr.eu/page/2/
+
+Cutting edge articles (time bound)
+- Paper digest, scalable runtime governance for agentic ai in financial services
+- Source: https://www.linkedin.com/feed/update/urn:li:activity:7458139081932234752/
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6567199
+- PMI, project managent institute
+	- https://www.pmi.org/standards/artificial-intelligence
+	- Get the paper from new contact?
+
+Consider contributing to agntcy, its linux foundation based and related with the same space as ACS on OWASP
+- https://docs.agntcy.org/contributing/
+- Identity Spec, https://spec.identity.agntcy.org/docs/intro/
+
+
+Publishing strategy:
+1. Work on GitHub
+2. Researchy doc or fundamental proposals on arXiv, examples:
+   **Agentic Societies Need a Social Harness**, https://arxiv.org/pdf/2609.17527 [Sept 2026]
+   **G-Safeguard: A Topology-Guided Security Lens and Treatment on**
+**LLM-based Multi-agent Systems, https://arxiv.org/pdf/2502.11127
+   We could explain the need of ACS via experimentation following patterns on this paper or potentially 
+3. Reflections on tech
+
+Coding interview done (it was the screening)
+
+Domain specific interview (level)
+- Trade offs, and why a decision is made.
+- Ask questions, align with interviewer.
+- IAM aspects on a system design interview.
+
+Design traditional interview
+- System design
+- Backend distributed systems
+
+Product partnership interview
+- History leading large scale projects
+- How I drive alignment across teams
+- Dealing with ambiguity
+- Tell me about a time type of questions.
+- Conflict resolution
+- Thought process.
+
+
+
+
+---
+
+
+**PAPER: Agentic Societies Need a Social Harness, https://arxiv.org/pdf/2609.17527 [Sept 2026]**
+
+Interesting references from paper:
+A2A Project. Agent2Agent (A2A) protocol documentation. https://a2aprotocol.org/v1.0.0/, 2026. Version 1.0.0; accessed July 16, 2026.  [https://www.a2aprotocol.org/en]
+
+AGNTCY. AGNTCY documentation. https://docs.agntcy.org/index. html, 2026. Accessed July 16, 2026.
+
+Moltbook. Moltbook: A social network for AI agents. https://www.moltbook.com/, 2026. Accessed July 16, 2026.
+
+Red teaming efforts on agent societies
+[22, 39, 44, 46, 47]
+Pengfei He, Yuping Lin, Shen Dong, Han Xu, Yue Xing, and Hui Liu. **Red-teaming LLM multi-agent systems via communication attacks**. In Findings of the Association for Computational Linguistics, ACL 2025, Vienna, Austria, July 27 - August 1, 2025, volume ACL 2025 of Findings of ACL, pages 6726–6747. Association for Computational Linguistics, 2025.
+https://arxiv.org/abs/2502.14847
+https://arxiv.org/pdf/2502.14847
+
+Shilong Wang, Guibin Zhang, Miao Yu, Guancheng Wan, Fanci Meng, Chongye Guo, Kun Wang, and Yang Wang. **G-Safeguard: A topologyguided security lens and treatment on LLM-based multi-agent systems**. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2025, Vienna, Austria, July 27 - August 1, 2025, pages 7261–7276. Association for Computational Linguistics, 2025
+https://arxiv.org/abs/2502.11127
+
+Hanrong Zhang, Jingyuan Huang, Kai Mei, Yifei Yao, Zhenting Wang, Chenlu Zhan, Hongwei Wang, and Yongfeng Zhang. **Agent Security Bench (ASB): formalizing and benchmarking attacks and defenses in LLM-based agents**. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 
+https://arxiv.org/abs/2410.02644
+
+
+Zaibin Zhang, Yongting Zhang, Lijun Li, Jing Shao, Hongzhi Gao, Yu Qiao, Lijun Wang, Huchuan Lu, and Feng Zhao. **PsySafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety.** In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2024, Bangkok, Thailand, August 11-16, 2024, pages 15202–15231. Association for Computational Linguistics, 2024.
+https://arxiv.org/abs/2401.11880
+
+Can Zheng, Yuhan Cao, Xiaoning Dong, and Tianxing He. **Demonstrations of integrity attacks in multi-agent systems**. arXiv preprint arXiv:2506.04572, 2025.
+
+---
+
+Propose a new document for ID Pro
+	- Agent Security in the enterprise (Interesting reference on PDF on desktop as a seed for the material)
+
+Articles to learn:
+- Introduction to Agent Control Standard
+	- Summary of ACS
+- OWASP Top 10 for LLMs explained
+	- My digested and illustrated version of the top 10 for LLMs
+- Introduction to Rego for policy engines
+	- Examples of usage, and how it related to ACS
+	- https://snyk.io/blog/introduction-to-rego/
+- Case study: Reference implementation of ACS
+	- How it works under the hood.
+	- Architectural diagrams
+	- Main flows
+	- Learnings
+- Example: https://jeiwan.net/posts/building-blockchain-in-go-part-1/
+- Moving to containers
+	- Get more info on what it takes to move an application into containers with kubernetes.
+
+**Memberships**
+W3C 
+IETF 
+PMI 
+ID Pro 
+Identity Underground 
+OWASP 
+
+Publish to this paper like community https://arxiv.org/
+
+
+ACS related
+- What are the 3 llm dialects and how they relate to MCP?
 
 1. Housekeeping
-	1. Create single folder for obsidian vaults in github
-	2. Move onenote to obsidian using a [plugin](https://obsidian.md/help/import/onenote)
+	1. Move onenote to obsidian using a [plugin](https://obsidian.md/help/import/onenote)
+
 
 Interesting posts to generate my own posts
 https://www.linkedin.com/events/securingaiagentswithmcpandzerot7441983876949946368/
@@ -10,6 +144,8 @@ https://fusionauth.io/blog/cimd-vs-dcr
 
 Networking
 - Once I publish the Passkeys doc, Ask Heather flanagan how she published on the NIST newsletter?
+- Publish to bluesky, that also publishes on mastodon, and automate it to publish on X as well.
+- Finally publish on linkedIn.
 
 ID Pro newsletter contribution?
 	- Invite to participate: https://idproconnect.slack.com/archives/C0AQT0K45EY/p1788910839920359
