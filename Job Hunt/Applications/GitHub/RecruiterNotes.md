@@ -1,0 +1,4 @@
+En las entrevistas están buscando ejemplos de escala de gran escala, también están buscando ejemplos de experiencia Con inteligencia artificial, Están buscando también una persona que tenga un Mindset de producto, buscan que sea una persona que codifique y no nada más sea un arquitecto, es una organización de 40 ingenieros, no hubo mención de identidad o experiencia específica para este perfil. 
+
+  
+El proceso de entrevistas incluye cinco secciones: dos sesiones de live  coding Dónde se resuelven problemas de tipo de proyectos, como diseñar una API, no tanto como Lee Code, una entrevista de diseño de sistemas, una entrevista de experiencia tradicional, y una entrevista donde se habla de un proyecto en específico y se expone para ser discutido con el panel.

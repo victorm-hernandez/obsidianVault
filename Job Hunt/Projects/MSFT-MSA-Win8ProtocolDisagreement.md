@@ -1,3 +1,4 @@
+## {THIS DISAGREEMENT DOESNT REFLECT SENIORITY, USE DATA LAYER MIGRATION INSTEAD PRODUCT VS INFRA}
 # Short Version
 
 On the Microsoft Account team in 2011, I owned the authentication integration between Windows 8 and MSA. When I needed to adapt the WS-FED web protocol to support OneDrive's roaming features, the protocols architect pushed back hard — and our first meeting ended in a walkout. I recognized I'd been arguing to win rather than listening to understand. I went back, actively paraphrased his concerns, validated the protocol-integrity risks he owned, and then co-designed a compromise that satisfied both sides. The feature shipped on time and unblocked OneDrive's Windows roaming capabilities.
