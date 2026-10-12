@@ -1,0 +1,93 @@
+{
+  "$schema": "https://hooks.security/schema/registry-v1.json",
+  "generatedAt": "2026-09-18T04:53:09.888Z",
+  "source": "https://hooks.security",
+  "filters": {
+    "platform": "antigravity",
+    "category": "all",
+    "enforcement": "all"
+  },
+  "meta": {
+    "totalEntries": 4,
+    "totalPlatforms": 1,
+    "canBlockCount": 4,
+    "owaspCoverage": {
+      "ASI01": 0,
+      "ASI02": 1,
+      "ASI03": 0,
+      "ASI04": 1,
+      "ASI05": 1,
+      "ASI06": 0,
+      "ASI07": 0,
+      "ASI08": 0,
+      "ASI09": 1,
+      "ASI10": 0
+    },
+    "owaspDescriptions": {
+      "ASI01": "Agent Goal Hijack: Manipulating agent goals via prompt injection, deceptive inputs, or poisoned data",
+      "ASI02": "Tool Misuse & Exploitation: Agents misusing legitimate tools through over-privileged access or unsafe delegation",
+      "ASI03": "Identity & Privilege Abuse: Exploiting delegation chains, credential inheritance, and privilege escalation in agents",
+      "ASI04": "Agentic Supply Chain Vulnerabilities: Compromised MCP tools, poisoned dependencies, and typosquatted agent components",
+      "ASI05": "Unexpected Code Execution (RCE): Shell injection, code hallucination, unsafe eval(), and sandbox escape via agents",
+      "ASI06": "Memory & Context Poisoning: RAG poisoning, shared context corruption, and long-term memory drift",
+      "ASI07": "Insecure Inter-Agent Communication: MITM on agent messages, protocol spoofing, and A2A registration attacks",
+      "ASI08": "Cascading Failures: Single faults propagating and amplifying across interconnected agents and workflows",
+      "ASI09": "Human-Agent Trust Exploitation: Social engineering via agent authority, fake explainability, and automation bias",
+      "ASI10": "Rogue Agents: Behavioral drift, goal deviation, self-replication, and emergent misalignment"
+    }
+  },
+  "hooks": [
+    {
+      "name": "Antigravity Review Modes",
+      "platform": [
+        "antigravity"
+      ],
+      "description": "Agent execution modes: Request Review never auto-executes terminal commands except those on the Allow list; Always Proceed executes automatically except commands on the Deny list. Strict mode always prompts and ignores the allowlist entirely. A Security Preset controls whether all terminal commands and file accesses require review.",
+      "securityValue": "The autonomy dial for Google's agent-first IDE, with an explicit paranoid setting: strict mode removes even the allowlist, so no accumulated convenience carve-outs survive into high-sensitivity work.",
+      "owaspMapping": "Human-Agent Trust Exploitation",
+      "owaspCode": "ASI09",
+      "category": "lifecycle",
+      "payload": "mode: request-review | always-proceed; strict_mode ignores allowlist; Security Preset",
+      "canBlock": true
+    },
+    {
+      "name": "Antigravity Terminal Allow/Deny Lists",
+      "platform": [
+        "antigravity"
+      ],
+      "description": "Configurable command lists with regex support, e.g. command(git) or command(npm run (build|lint|test)). Allow list runs without prompting in Request Review mode; Deny list always prompts even in Always Proceed mode.",
+      "securityValue": "Pattern-scoped command policy: safe scripts flow, everything else meets a human. Regex patterns deserve review discipline, since an over-broad pattern is a standing auto-approval.",
+      "owaspMapping": "Tool Misuse & Exploitation",
+      "owaspCode": "ASI02",
+      "category": "shell",
+      "payload": "allow: [command(git), command(npm run (build|lint|test))]; deny: [...]",
+      "canBlock": true
+    },
+    {
+      "name": "Antigravity MCP Tool Allowlist",
+      "platform": [
+        "antigravity"
+      ],
+      "description": "Per-project configuration of which MCP tools are available to the agent, preventing globally configured MCP servers from being exposed to every project.",
+      "securityValue": "Project-scoped MCP least privilege: a personal MCP server configured globally does not silently become attack surface in a work repository.",
+      "owaspMapping": "Agentic Supply Chain Vulnerabilities",
+      "owaspCode": "ASI04",
+      "category": "mcp",
+      "payload": "per-project allowed MCP tools (subset of global servers)",
+      "canBlock": true
+    },
+    {
+      "name": "Antigravity Terminal Sandboxing",
+      "platform": [
+        "antigravity"
+      ],
+      "description": "Kernel-level isolation for agent-executed terminal commands: a restricted environment with limited filesystem and network access.",
+      "securityValue": "Containment beneath the permission layer: even an approved command runs with bounded filesystem and network reach.",
+      "owaspMapping": "Unexpected Code Execution (RCE)",
+      "owaspCode": "ASI05",
+      "category": "shell",
+      "payload": "sandboxed execution: restricted fs + network",
+      "canBlock": true
+    }
+  ]
+}
