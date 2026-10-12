@@ -2,7 +2,6 @@
 - Project GitHub: https://github.com/swicg/activitypub-trust-and-safety
 - Social Web Incubator Community group page https://www.w3.org/community/socialcg/
 
-
 ## Application for leader of task force
 - Call for candidates for lead of the task force: https://github.com/swicg/activitypub-trust-and-safety/issues/135
 - Current lead: https://github.com/ThisIsMissEm, https://www.linkedin.com/in/thisismissem/
@@ -20,8 +19,7 @@ You can subscribe to the [SWICG Calendar](https://www.w3.org/events/meetings/29
 	- Usually at [https://meet.jit.si/ActivityPubRocks](https://meet.jit.si/ActivityPubRocks)
 
 
-
-TF Lead
+TF Lead Responsibilitites
 - Event planning
 - Chair the meetings
 - Infrastructure for note taking
@@ -35,12 +33,5 @@ Questions:
 Attendees
 - Roel RA (@rra@post.lurk.org) (Sweden) Document Best practices document, PhD research on this. Document state of the art is his purpose, joined 2 weeks ago.
 - Julian Fietkau (Germany) Interaction controls workstream. Research library, does this as part of htis work T & B. Data management work, interaction controls early this year (IETF) work. 
-
-
-Task force items
-- Ping Echo about this see if still interested
-- Ping Emilia about result of the vote
-
-
 
 

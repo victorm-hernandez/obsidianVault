@@ -1,8 +1,8 @@
 Tasks for the new activity pub leadership position
 
 TODO
+- Add a link to this proposal to incubate anything here, https://swicg.github.io/charters/stage-process
 - DELIVERABLES: [https://github.com/jernst/meetings/blob/pr-tf-table/DELIVERABLES-TASKFORCES.md](https://github.com/jernst/meetings/blob/pr-tf-table/DELIVERABLES-TASKFORCES.md)
--
 - Identify deadlines
 - Get proper permissions on github
 - Identify Contributors and contact information
@@ -27,5 +27,11 @@ TODO
 Co-Lead Contact
 - [echo@joinmastodon.org](mailto:echo@joinmastodon.org)
 - Mastodon server/account: @echo@ishella.gay
+
+Consider using orcid on the best practices document
+
+```javascript
+var respecConfig = { editors: [ { name: "Your Name", w3cid: 12345, // Your W3C Account ID orcid: "https://orcid.org/0000-0000-0000-0000", // Your ORCID URL company: "Your Organization", companyURL: "https://example.com" } ], // other config properties... };
+```
 
 

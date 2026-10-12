@@ -1,4 +1,5 @@
 
+
 ## Relevant W3C Community Groups
 
 Highest stakes (best project), FedCM CG (credential management)
@@ -28,7 +29,7 @@ Topics
 - Decentralized identifier
 
 Recommended working group
-https://identity.foundation/working-groups/did-methods.html
+- https://identity.foundation/working-groups/did-methods.html
 
 DIF is Linux foundation org backed
 - https://identity.foundation/faq/
