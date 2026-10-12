@@ -1,0 +1,27 @@
+
+- Identity for agentic systems: https://docs.google.com/document/d/1xRuHe29xMQ1AYFxNd0YGWk1D40HtYKQrM6At7X0Uxn8/edit?tab=t.2fu5dov5ht9
+- WebAuthN Level 3, https://blog.timcappalli.me/p/webauthn-3/
+- FedCM
+- CIMD
+- Dynamic Client Registration (DCR)
+	- https://www.linkedin.com/feed/update/urn:li:activity:7441842233231949824/
+- ID-JAG stands for ==[Identity Assertion JWT Authorization Grant](https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/)==, an emerging security standard that lets a central identity provider give a temporary, restricted token to an application or AI agent so it can safely access another app's API 
+	- Identity Assertion (JAG) https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/
+- [Cross App Access (XAA)](https://www.okta.com/solutions/cross-app-access/) es un ==protocolo de identidad basado en OAuth diseñado para asegurar y gestionar la comunicación entre aplicaciones y agentes de inteligencia artificial en entornos empresariales==
+- OWASP Related:
+	- An [AgBOM](https://www.google.com/goto?url=CAEShgEB6zswFbaWf1tQudJZr7Q19GSqXm_RbJUzZ8ZIgyOSBdijhmR2-BP0O4I6tV3Kkt5FfivOKwzR9UYOKlK9aUx-xYzwfxjOlrDN3sL1SLsq-VPomDvvoqOuVY9BQlWcfb-UqewhcF0QBNtm2o2JoTGScMiBPT6sqVVapolG9Brqd_txCkHCpA) (Agent Bill of Materials) is ==a structured, dynamic inventory of all the components that make up an AI agent system==, such as its models, tools, capabilities, and dependencies
+	- [CycloneDX](https://www.google.com/goto?url=CAESTgHrOzAVj6Jmu5LO-PK5tQngEgqghs9vKPaf9EIUiDtC6VtVmLlqJc7ucPg8uEGgLIa9cU24WplZfHF5HH3zziWhJ_4wBBbqfDERlclBJg) is ==a full-stack, lightweight Bill of Materials (BOM) standard designed for security-centric supply chain risk reduction==
+	- ==System Package Data Exchange== (SPDX) is an open standard maintained by the Linux Foundation for sharing Software Bill of Materials (SBOM) data, including software components, licenses, copyrights, and security references
+	- SWID most commonly refers to ==**Software Identification**==, a standardized method defined by the [ISO/IEC 19770-2:2015](https://www.google.com/goto?url=CAESXwHrOzAV8Kj5cffyWXweIOfKADEYdNLW71kMZ5j33cwLDsjstPhzJhMZWLnI_aluLgoiTLZxzruKOHeywE45CqBJHRtFjGdcf7GTLc3WVZ0Ms6vg2fgDJOEEIP5zNDJ6) standard for tracking and managing software installations on devices. [[1](https://www.google.com/goto?url=CAEScwHrOzAV3eDU3xggyvFc4ah1F7k4n803O1ze9lwu7wRg8FCSaZ42byQ0LqQ3816A7ZgWdmtk9Rm3f3Og803lOSYr0r-j8o6LLKtl1MbbC4nJmNkaOLupzg6D1HgdoCYozSkBca3djru4EAinDuReClOTSpY), [2](https://www.google.com/goto?url=CAEScgHrOzAVkNtC_tLN8iDDiH7DbI0vCkIte4kNSeojiIF6kmANZ_OE9hcA_v6w0R1PnXMBjGGXPTMsGuNB-EQPCn4S6TtvikItB-_MT9bUVSVqse3lLubWk0rHQt-C1BKY6ePRSSmxrdMk96KU1MtklfRBQQ)]
+- OAuth beyond the usual suspects: additional Oauth flows besides implicit, client credentials and authorization code. 
+- Workload Identity in Multi System Environments (wimse)
+- Global Legal Entity Identifier Foundation (GLEIF) 
+- SPIFFE (Secure Production Identity Framework for Everyone)
+- WebAuthN Lvl 3
+- Proof Key for Code Exchange (PKCE)
+- Attribute-Based Access Control (ABAC)
+- Role-based access control (RBAC) 
+- Identity Governance (IGA)
+- Privileged access management (PAM) - https://bok.idpro.org/article/id/101/
+- Public key Infrastructure (PKI)
+- Verifiable Credentials

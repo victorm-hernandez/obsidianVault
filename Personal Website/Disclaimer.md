@@ -1,0 +1,2 @@
+
+This is the authors' independent work, reflecting their personal views and not representing any employer or organization. It is based on publicly available open standards and open-source technologies. No confidential or proprietary information from any employer is included. 
